@@ -1,4 +1,3 @@
-package gUILayer;
 /*Hacer un package gUIlayer hacer un javaProject EjGridBagLayout
  29 de agosto 2025
  * GridBagLayout. A traves de gridX y gridY, podemos indicar la posicion horizontal y vertical.
@@ -7,19 +6,16 @@ package gUILayer;
  * insets, pone margenes alrededor del componente.
  */
 
-import java.awt.GraphicsConfiguration;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.HeadlessException;
 import java.awt.Insets;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-
-import java.awt.event.ActionEvent;
 
 public class Principal2 extends JFrame implements ActionListener{
 
